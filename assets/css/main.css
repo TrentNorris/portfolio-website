@@ -3463,7 +3463,13 @@ input, select, textarea {
 
 		#quote {
 			margin-bottom: 0;
-			font-weight: bold;
+			font-weight: bold !important;
+		}
+		
+		.fa-code {
+			border: 2px solid white;
+			padding: 20px;
+			border-radius: 70%;
 		}
 
 		@media screen and (max-width: 1280px) {
