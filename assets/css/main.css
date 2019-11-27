@@ -33,6 +33,7 @@ body {
 	line-height: 1;
 }
 
+
 ol, ul {
 	list-style: none;
 }
@@ -3265,7 +3266,6 @@ input, select, textarea {
 		top: 0;
 		visibility: hidden;
 		width: 100%;
-		background: 
 	}
 
 		#menu .inner {
@@ -3671,6 +3671,15 @@ input, select, textarea {
 			background-color: #1d1e1e !important;
 		}
 
+		#one .inner a {
+			border-radius: 10% !important;
+		}
+
+		#two .inner a {
+			border-radius: 10% !important;
+		}
+		
+
 		#two {
 			background-color: #165a46 !important;
 		}
@@ -3711,8 +3720,9 @@ input, select, textarea {
 			}
 
 				.wrapper.spotlight .image img {
-					border-radius: 100%;
+					border-radius: 10%;
 					width: 100%;
+					height: 12em;
 				}
 
 			.wrapper.spotlight .content {
